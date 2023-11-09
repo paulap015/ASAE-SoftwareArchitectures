@@ -1,0 +1,3 @@
+INSERT INTO `clientes` (`id`, `apellido`, `createAt`, `email`, `nombre`,`telefono`, `salario`) VALUES ('1', 'Perez', '2022-11-09 00:00:00', 'juan@unicauca.edu.co', 'Juan','8234567',5000);
+INSERT INTO `direcciones` (`idUsuario`, `calle`, `ciudad`, `pais`) VALUES ('1', 'calle 7 A 30 A 45', 'Popayan', 'Colombia');
+INSERT INTO `solicitudes` (`id`, `archivo`, `comentarios`, `fecha`, `idUsuario`) VALUES ('1', 'ruta al archivo', 'Solicitud para la vacante de desarrollador Back-End', '2022-11-02 00:00:00', '1'), ('2', 'Rutal al archivo', 'Solicitud para la vacante de desarrollador Front-End', '2022-11-16 00:00:00', '1');
